@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ian Kariuki's Nairobi-based web development project exploring HTML5 semantics, accessibility, and SEO for Kenyan businesses">
+    <title>Iain's Dev Journey | Nairobi Web Accessibility</title>
+</head>
+<body>
+    <header>
+        <h1>Building Web Accessibility in Nairobi</h1>
+        <p>A Kenyan developer's journey with semantic HTML5</p>
+        
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#motivation">Nairobi Inspiration</a></li>
+                <li><a href="#findings">Local Discoveries</a></li>
+                <li><a href="#samples">Kenyan Examples</a></li>
+                <li><a href="#vision">Future Plans</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="motivation" aria-labelledby="motivation-heading">
+            <h2 id="motivation-heading">Why This Matters for Nairobi</h2>
+            
+            <article>
+                <h3>The Kenyan Digital Landscape</h3>
+                <p>After visiting various business websites along <mark>Moi Avenue</mark> and in <mark>Westlands</mark>, I noticed many struggle with:</p>
+                <ul>
+                    <li>Poor mobile compatibility</li>
+                    <li>Missing alt text for matatu business photos</li>
+                    <li>No semantic structure for safari tour pages</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>My Personal Goal</h3>
+                <p>To demonstrate how simple HTML5 improvements can help Nairobi businesses:</p>
+                <ol>
+                    <li>Reach more customers through better SEO</li>
+                    <li>Serve users with disabilities</li>
+                    <li>Improve mobile experience</li>
+                </ol>
+            </article>
+        </section>
+
+        <section id="findings" aria-labelledby="findings-heading">
+            <h2 id="findings-heading">Nairobi-Specific Discoveries</h2>
+            
+            <article>
+                <h3>For Local Markets</h3>
+                <p>Semantic HTML works perfectly for:</p>
+                <ul>
+                    <li><strong>&lt;article&gt;</strong> - Each vendor's profile at Maasai Market</li>
+                    <li><strong>&lt;section&gt;</strong> - Different sections like jewelry, artifacts</li>
+                    <li><strong>&lt;time&gt;</strong> - Market opening hours (important for tourists!)</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Accessibility Wins</h3>
+                <p>Simple changes that help:</p>
+                <ul>
+                    <li>Adding Swahili language attributes</li>
+                    <li>Proper contrast for sunny outdoor viewing</li>
+                    <li>Clear labels for mobile money payment options</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="samples" aria-labelledby="samples-heading">
+            <h2 id="samples-heading">Local Code Examples</h2>
+            
+            <article>
+                <h3>Nairobi Restaurant Menu</h3>
+                <pre><code>&lt;article class="menu-item"&gt;
+  &lt;h3&gt;Nyama Choma Special&lt;/h3&gt;
+  &lt;img src="nyama.jpg" alt="Grilled goat meat with kachumbari"&gt;
+  &lt;p&gt;Tender grilled meat served with our signature 
+  kachumbari and ugali&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;KSh 1,200&lt;/strong&gt;&lt;/p&gt;
+  &lt;button aria-label="Add Nyama Choma to order"&gt;
+    Order Now
+  &lt;/button&gt;
+&lt;/article&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3>Safari Tour Section</h3>
+                <pre><code>&lt;section id="safaris"&gt;
+  &lt;h2&gt;Maasai Mara Packages&lt;/h2&gt;
+  &lt;article&gt;
+    &lt;h3&gt;3-Day Safari Experience&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Game drives in custom pop-top vans&lt;/li&gt;
+      &lt;li&gt;Accommodation at eco-friendly lodges&lt;/li&gt;
+      &lt;li&gt;Cultural visit to Maasai village&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Starting from &lt;strong&gt;KSh 25,000&lt;/strong&gt;&lt;/p&gt;
+  &lt;/article&gt;
+&lt;/section&gt;</code></pre>
+            </article>
+        </section>
+
+        <section id="vision" aria-labelledby="vision-heading">
+            <h2 id="vision-heading">My Nairobi Tech Vision</h2>
+            <p>Goals for the next 6 months:</p>
+            <ol>
+                <li>Partner with 3 local businesses to implement these techniques</li>
+                <li>Create Swahili-language accessibility guides</li>
+                <li>Host a workshop at Nairobi Garage tech hub</li>
+                <li>Develop mobile-first templates for matatu SACCOs</li>
+            </ol>
+        </section>
+    </main>
+
+    <aside>
+        <h2>My Learning Timeline</h2>
+        <ul>
+            <li><time datetime="2025-07-15">Jul 15</time> - Studied local business websites</li>
+            <li><time datetime="2025-07-22">Jul 22</time> - First semantic structure tests</li>
+            <li><time datetime="2025-08-01">Aug 1</time> - Added ARIA landmarks</li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>Created by <strong>Ian Kariuki</strong> to improve Nairobi's web accessibility</p>
+        <p>Last updated: <time datetime="2025-08-05">August 5, 2025</time></p>
+        <address>
+            Contact: <a href="mailto:iainkariuki@gmail.com">iainkariuki@gmail.com</a><br>
+            Based in: Nairobi, Kenya
+        </address>
+    </footer>
+</body>
+</html>
